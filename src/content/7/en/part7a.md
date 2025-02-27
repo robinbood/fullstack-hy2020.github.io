@@ -222,7 +222,7 @@ We define parameterized URLs in the routing of the <i>App</i> component as follo
   // ...
 
   <Routes>
-    <Route path="/notes/:id" element={<Note notes={notes} />} /> // highlight-line
+    <Route path="/notes/:id" element={<Notes notes={notes} />} /> // highlight-line
     <Route path="/notes" element={<Notes notes={notes} />} />   
     <Route path="/users" element={user ? <Users /> : <Navigate replace to="/login" />} />
     <Route path="/login" element={<Login onLogin={login} />} />
