@@ -53,7 +53,7 @@ The term "build" has different meanings in different languages. In some interpre
 
 In general when we talk about building we mean preparing software to run on the platform where it's intended to run. This might mean, for example, that if you've written your application in TypeScript, and you intend to run it on Node, then the build step might be transpiling the TypeScript into JavaScript. 
 
-This step is much more complicated (and required) in compiled languages such as C and Rust where the code needs to be compiled into an executable.
+This step is much more complicated (and required) in compiled languages such as C and Rust where the code needs to be compiled into an executable state.
 
 In [part 7](/en/part7/webpack) we had a look at [Webpack](https://webpack.js.org/) that is the current de facto tool for building a production version of a React or any other frontend JavaScript or TypeScript codebase.
 
